@@ -1,27 +1,38 @@
-# Akshat Singh Portfolio Website V3 Clean
+# Akshat Singh Portfolio v4
 
-A cleaner, faster, static one-page portfolio website built with plain HTML, CSS and JavaScript.
+A flashy but minimal static portfolio for GitHub Pages. No framework, no build step, no backend.
 
-## Changes in this version
+## What changed
 
-- Smaller cursor glow
-- Less laggy cursor effect using transform and requestAnimationFrame
-- Fewer gradients
-- Cleaner dark professional design
-- Projects section remains removed
-- Reduced heavy shadows and visual noise
+- Added a full interactive GitHub projects section.
+- Added project filters, project search and modal project details.
+- Added GitHub or live-link project preview images.
+- Rebuilt hero, work timeline, tech stack, services and contact layout.
+- Fixed mobile navigation with accessible `aria-expanded` state.
+- Added reduced-motion support and keyboard-friendly modal closing.
+- Kept the site static and GitHub Pages friendly.
 
 ## Files
 
-- index.html
-- style.css
-- script.js
-- README.md
+```text
+index.html
+style.css
+script.js
+README.md
+```
 
-## Run locally
+## How project images work
 
-Open index.html in your browser.
+Projects with a live demo use `image.thum.io` screenshot previews. If that fails, the image falls back to GitHub OpenGraph preview images.
 
-## Deploy
+## Deploy on GitHub Pages
 
-Upload the files to GitHub and enable GitHub Pages.
+1. Replace your current `index.html`, `style.css` and `script.js` with these files.
+2. Push to your `Portfolio` repository.
+3. Open GitHub repository Settings.
+4. Go to Pages.
+5. Choose deploy from branch.
+6. Select `main` and `/root`.
+7. Save.
+
+Your site should be available from your GitHub Pages URL after Pages finishes deployment.
